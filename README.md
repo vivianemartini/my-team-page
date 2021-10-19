@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="">
+    <a href="https://vivianemartini.github.io/my-team-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://github.com/vivianemartini/my-team-page">
       Solution
     </a>
     <span> | </span>
@@ -32,7 +32,7 @@
 
 ## Overview
 
-![screenshot]()
+![screenshot](https://github.com/vivianemartini/my-team-page/blob/main/mobile.jpeg)
 
 ### Built With
 
@@ -50,5 +50,5 @@ I use this application to practice Flexbox properties.
 
 ## Contact
 
-- GitHub [@your-username](https://github.com/vivianemartini)
+- GitHub [@vivianemartini](https://github.com/vivianemartini)
 - Linkedin [VivianeMartini](https://www.linkedin.com/in/viviane-martini)
