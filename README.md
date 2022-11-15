@@ -32,7 +32,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/vivianemartini/my-team-page/blob/main/mobile.jpeg)
+![screenshot](/img/preview.png)
 
 ### Built With
 

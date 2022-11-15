@@ -51,55 +51,29 @@
 
 .img-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 850px;
+  margin-top: 0px;
 }
 
 .img-box {
-  height: 800px;
-  width: 1200px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  width: 1000px;
+  margin-top: 0px;
+ 
 }
 
-/* box 1 */
-.img-box-1 {
-  height: 700px;
-  width: 230px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: space-around;
-}
 
-.img-box-1 img {
+img {
   width: 180px;
   height: 260px;
 }
 
-/* box 2 */
-
-.img-box-2 {
-  height: 750px;
-  width: 300px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.img-box-2 img {
-  width: 180px;
-  height: 260px;
-}
-
-/* box 3 */
-
-.img-box-3 img {
-  width: 180px;
-  height: 260px;
-  margin-left: 20px;
+.diff-cont {
+  margin-top: 60px;
 }
 
 /*  Name */
@@ -114,9 +88,6 @@
   margin-left: 10px;
 }
 
-.img-name-3 {
-  margin-left: 20px;
-}
 
 /* job */
 .job-container {
@@ -125,6 +96,7 @@
   flex-wrap: wrap;
   flex-direction: row-reverse;
   justify-content: space-evenly;
+
 }
 
 .job-box {
@@ -139,6 +111,14 @@
 
 /* Footer */
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+
 .footer {
   height: 30px;
   font-family: 'Montserrat', sans-serif;
@@ -147,7 +127,14 @@
   font-size: 14px;
   line-height: 17px;
   color: #a9a9a9;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #a9a9a9;
+  cursor: pointer;
+}
+
+.footer a:hover {
+  color: #000000;
 }
